@@ -1,0 +1,27 @@
+@import url("reset.css");
+
+a {
+    color: blue;
+}
+
+p {
+    color: gold;
+}
+
+h1 {
+    color: darkmagenta;
+}
+
+h2 {
+    color: indigo;
+} 
+
+.text,
+.title {
+    color: darkgreen;
+}
+
+.big, 
+.lesson {
+    color: brown;
+}
