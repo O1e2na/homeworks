@@ -1,0 +1,132 @@
+@import url("reset.css");
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat:regular,700&display=swap");
+
+
+/* Base Styles */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #231F8B;
+    color: #fff;
+    margin: 0;
+  }
+  
+  img {
+    max-width: 100%;
+    display: block;
+  }
+  
+  .container {
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  /* Advantages Section */
+  .advantages {
+    padding: 112px 0;
+  }
+  
+  .info {
+    margin-bottom: 10px;
+  }
+  
+  .content {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.71;
+    color: #5A54F2;
+    letter-spacing: 0.2px;
+    margin-bottom: 10px;
+  }
+  
+  .info h1 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+  }
+  
+  .info-two {
+    font-size: 14px;
+    line-height: 1.4;
+    color: #5A54F2;
+    margin-bottom: 70px;
+    letter-spacing: 0.2px;
+  }
+  
+  /* Cards Layout */
+  .cards {
+    margin: 0 auto;
+    font-size: 0;
+    max-width: 1050px;
+  }
+  
+  .card {
+    display: inline-block;
+    padding: 35px 40px;
+    background-color: #FFF;
+    vertical-align: top;
+    min-height: 288px;
+    margin-left: 30px;
+    max-width: 150px;
+    color: #000;
+  }
+  
+  .card-top {
+    margin-top: 48px;
+  }
+  
+  .card-dark {
+    background-color: #5A54F2;
+    color: #fff;
+  }
+  
+  .logo {
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    margin-bottom: 20px;
+  }
+  
+  .card h2 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0.1px;
+    margin: 0;
+  }
+  
+  .card-line,
+  .line {
+    width: 50px;
+    height: 2px;
+    margin-bottom: 20px;
+  }
+  
+  .card-line {
+    background-color: #E74040;
+  }
+  
+  .line {
+    background-color: #fff;
+  }
+  
+  .text,
+  .text-white {
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+  }
+  
+  .text {
+    color: #737373;
+  }
+  
+  .text-white {
+    color: #fff;
+  }
+  
