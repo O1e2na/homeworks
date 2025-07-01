@@ -1,0 +1,162 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+img {
+    vertical-align: top;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: clip;
+
+}
+
+.header {
+    background: rgba(18, 11, 11, 0.51);
+    padding: 20px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.header h1 {
+    font-size: 28px;
+    margin: 0;
+    vertical-align: middle;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.header-logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+.header-logo img {
+    width: 357px;
+    height: 82px;
+    display: block;
+}
+
+.header-text {}
+
+.main {
+    background-color: #413c3c;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.main__title {
+    font-size: 32px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.icons-grid {
+    text-align: center;
+    font-size: 0;
+    padding: 0;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.icon-item {
+    display: inline-block;
+    vertical-align: middle;
+    width: 25%;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #fff;
+    text-align: left;
+}
+
+.icon-item img {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.icon-description {
+    display: inline-block;
+    vertical-align: middle;
+    color: #ccc;
+    font-size: 14px;
+    line-height: 1.2;
+    position: relative;
+}
+
+
+@media (max-width: 992px) {
+    .icon-item {
+        width: 33.333%;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .icon-item {
+        width: 50%;
+        padding: 8px;
+    }
+
+    .icon-item img {
+        width: 28px;
+        height: 28px;
+    }
+
+    .icon-description {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 480px) {
+    .icon-item {
+        width: 100%;
+        text-align: center;
+        padding: 5px;
+    }
+
+    .icon-item img {
+        margin-right: 5px;
+    }
+
+    .icon-description {
+        font-size: 12px;
+    }
+}
+
+/* image */
+
+
+
+.image p {
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.man img {
+    border-radius: 150px 0px;
+    padding-top: 20px;
+    text-align: center;
+    display: inline-block;
+}
